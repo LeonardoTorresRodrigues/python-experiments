@@ -13,9 +13,8 @@ def ler_sequecia():
 
 
 def imprimir_inverso(sequencia):
-    print("Sequência na ordem inversa:")
     for num in reversed(sequencia):
-        print(num, end=" ")
+        print(num)
 
 
 def main():
